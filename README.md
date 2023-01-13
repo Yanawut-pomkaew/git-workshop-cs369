@@ -1,6 +1,6 @@
 # Git Workshop
 
-สำหรับ workshop นี้จะเป็นการสอนการใช้งาน git และ GitHub แบบง่าย ๆ เพื่อประโยชน์ในการจัดเก็บ source code และการทำงานเป็นทีมในอนาคต
+สำหรับ workshop นี้จะเป็นการสอนการใช้งาน git และ GitHub แบบง่าย ๆ เพื่อประโยชน์ในการจัดเก็บเวอร์ชั่นของ source code และการทำงานเป็นทีมในอนาคต
 
 
 ## Learning Outcomes
@@ -96,3 +96,12 @@ git push -u origin2 main
 
 และจะเห็นว่าภายใน GitHub repository ของเรามีไฟล์ source code ขึ้นมาแล้ว
 
+## การใช้งาน GitHub Pages
+
+GitHub Pages เป็นฟีเจอร์อย่างนึงของ GitHub ที่ทำหน้าที่เป็น free hosting server สำหรับ static website โดยใช้ source code จากใน git repository ที่เรามีได้เลย
+
+ซึ่งประโยชน์ของ GitHub Pages ก็คือจะมีการทำ automated deploy ให้สำหรับการ push ทุกครั้ง
+
+### การเปิดใช้งาน
+- Settings -> Pages -> Branch และให้เลือก branch เป็น main หรือ branch ที่ตัวเองต้องการ และทำการกด save
+- สามารถดูผลลัพธ์ของการ deploy ได้ที่ `https://<ชื่อ account>.github.io/<ชื่อ repository>/` เช่น `https://cstu-cs369-2022-2.github.io/git-workshop/`
