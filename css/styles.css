@@ -1,0 +1,12 @@
+/*
+ * Write your custom CSS here
+ */
+
+.profile-section {
+	display: flex;
+	gap: 50px;
+}
+
+img.profile {
+	border-radius: 50%;
+}
