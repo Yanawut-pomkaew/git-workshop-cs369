@@ -1,7 +1,12 @@
 # Git Workshop
 
-สำหรับ workshop นี้จะเป็นการสอนการใช้งาน git และ GitHub แบบง่าย ๆ เพื่อประโยชน์ในการจัดเก็บเวอร์ชั่นของ source code และการทำงานเป็นทีมในอนาคต
+สำหรับ workshop นี้จะเป็นการสอนการใช้งาน git และ GitHub แบบง่าย ๆ เพื่อประโยชน์ในการจัดเก็บเวอร์ชั่นของ source code และการทำงานเป็นทีม
 
+### Why use git
+- ทำให้สามารถทำงานพร้อมกันหลายคนได้อย่างมีประสิทธิภาพ
+- เก็บประวัติการทำงาน
+- สามารถ backup และ revert โค้ดกลับไปได้
+- เปรียบเทียบโค้ดที่ถูกแก้ไขระหว่าง commit ต่าง ๆ
 
 ## Learning Outcomes
 - สามารถใช้งานคำสั่งพื้นฐานของ git อย่าง `add`, `commit`, `push`, `clone`
@@ -60,6 +65,11 @@ git add index.html css/styles.css image/profile.webp
 git add .
 ```
 เพื่อเพิ่มไฟล์ทั้งหมดใน working directory เข้าไปสู่ staging area
+
+![Local repository ของ git](./image/git-stage.png "Local repository ของ git")
+> **FYI**
+> 
+> หน้าที่ของ staging area ใน git https://stackoverflow.com/a/49228297
 
 ## Commiting
 เมื่อไฟล์ทั้งหมดที่เราต้องการเพิ่มเข้าไปอยู่ใน staging area แล้ว เราจะทำการ commit เพื่อบันทึกการแก้ไขของเราแบบถาวรผ่านคำสั่ง
